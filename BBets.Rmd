@@ -120,7 +120,15 @@ for (i in 1:n_trials) {
   probs[i] <- same_birthday_prob(class_size, n_sim)
 }
 
+cat("probability of win =", mean(probs))
+
 ```
+
+```{r}
+EV=mean(probs)*1*20
+cat("expected profit = " , EV)
+```
+
 
 ## mean and std dev 
 
