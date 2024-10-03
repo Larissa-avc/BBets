@@ -76,7 +76,7 @@ cat("Standard Deviation of Probabilities:", sd_probs, "\n")
 
 ```
 
-The probabilty Dr. J wins is .813
+The probability Dr. J wins is 0.813
 
 ```{r}
 EV= mean_probs*1*26
@@ -92,6 +92,8 @@ hist(probs, main = "Histogram of Probabilities", xlab = "Probability", col = "li
 
 ```
 
+
+get answers for a smaller class
 ```{r}
 # Calculate 95% confidence interval
 error_margin <- qt(0.975, df=n_trials-1) * sd_probs / sqrt(n_trials)
@@ -102,8 +104,6 @@ cat("95% Confidence Interval for the Mean Probability: [", conf_interval[1], ","
 ```
 
 confidence interval is 0.811 to 0.816
-
-get answers for a smaller class
 
 
 ```{r}
@@ -162,7 +162,7 @@ cat("probability of win =", mean(probs))
 
 ```
 
-number of fair students for fair game 1:1 is 23
+number of fair students for fair game 1:1. Therefore it would have to be 23 in order for the bet to be fair.
 
 ### Explanation:
 
