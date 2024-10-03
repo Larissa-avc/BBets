@@ -162,7 +162,7 @@ cat("probability of win =", mean(probs))
 
 ```
 
-number of fair students for fair game 1:1. Therefore it would have to be 23 in order for the bet to be fair.
+Number of fair students for fair game 1:1. Therefore it would have to be 23 in class size in order for the bet to be fair.
 
 ### Explanation:
 
