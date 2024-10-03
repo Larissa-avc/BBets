@@ -76,7 +76,7 @@ cat("Standard Deviation of Probabilities:", sd_probs, "\n")
 
 ```
 
-The probability Dr. J wins is 0.813
+The probability Dr. J wins is 0.813.
 
 ```{r}
 EV= mean_probs*1*26
